@@ -2346,7 +2346,7 @@ var render = function render() {
     staticClass: "text-danger mb-4"
   }, [_vm._v("Sono la pagina del singolo post: "), _c("h2", {
     staticClass: "text-white d-inline"
-  }, [_vm._v(_vm._s(_vm.posts.title))])]), _vm._v(" "), _c("h3", [_vm._v(_vm._s(_vm.posts.body))]), _vm._v(" "), _c("p", [_vm._v("Il piatto è un: " + _vm._s(_vm.posts.category.name))])]);
+  }, [_vm._v(_vm._s(_vm.posts.title))])]), _vm._v(" "), _c("h3", [_vm._v(_vm._s(_vm.posts.body))])]);
 };
 var staticRenderFns = [];
 render._withStripped = true;

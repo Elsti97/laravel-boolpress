@@ -3,7 +3,6 @@
         <h1 class="text-danger mb-4">Sono la pagina del singolo post: <h2 class="text-white d-inline">{{ posts.title }}</h2> </h1>
 
         <h3>{{ posts.body }}</h3>
-        <p>Il piatto è un: {{ posts.category.name }}</p>
 
     </div>
 </template>
