@@ -5,8 +5,11 @@ Vue.use(VueRouter)
 
 import AboutUs from './views/pages/AboutUs.vue'
 import HomePage from './views/pages/HomePage.vue'
+
 import PostsIndex from './views/pages/posts/PostsIndex.vue'
 import PostShow from './views/pages/posts/PostShow.vue'
+
+import TagsIndex from './views/pages/tags/TagsIndex.vue'
 
 const router = new VueRouter({
     mode: 'history',
@@ -30,6 +33,11 @@ const router = new VueRouter({
             path: '/posts/:id',
             name: 'SinglePost',
             component: PostShow
+        },
+        {
+            path: '/tags',
+            name: 'tags',
+            component: TagsIndex
         },
     ]
 });
